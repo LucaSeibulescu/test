@@ -27,8 +27,6 @@ while not done:
 print(coin)
 print("watermark: " + bitsW)
 
-def sum(a, b):
-    return a + b
 
 def forge(nid: str):
     watermark = nid

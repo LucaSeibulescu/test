@@ -56,4 +56,7 @@ def forge(nid: str):
 def sum(a, b):
     return a + b
 
+def sub(a, b):
+    return a - b
+
 #print("Forged watermark: " + forge("las543"))

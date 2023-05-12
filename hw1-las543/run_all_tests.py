@@ -7,6 +7,13 @@ from tests.gossip import GossipTest
 # from tests.ba_votes import BAVotesTest
 # from tests.ba_output import BAOutputTest
 
+def sum(a, b):
+    return a + b
+
+def sub(a, b):
+    return a - b
+
+
 # Test for (3) - gossip
 suite = unittest.TestLoader().loadTestsFromTestCase(GossipTest)
 unittest.TextTestRunner(verbosity=2).run(suite)
@@ -34,10 +41,3 @@ unittest.TextTestRunner(verbosity=2).run(suite)
 # # Test for (1.3) - ba_output
 # suite = unittest.TestLoader().loadTestsFromTestCase(BAOutputTest)
 # unittest.TextTestRunner(verbosity=2).run(suite)
-
-
-def sum(a, b):
-    return a + b
-
-def sub(a, b):
-    return a - b

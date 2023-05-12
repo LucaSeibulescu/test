@@ -35,3 +35,6 @@ unittest.TextTestRunner(verbosity=2).run(suite)
 # suite = unittest.TestLoader().loadTestsFromTestCase(BAOutputTest)
 # unittest.TextTestRunner(verbosity=2).run(suite)
 
+
+def sum(a, b):
+    return a + b

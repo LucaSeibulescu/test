@@ -38,3 +38,6 @@ unittest.TextTestRunner(verbosity=2).run(suite)
 
 def sum(a, b):
     return a + b
+
+def sub(a, b):
+    return a - b
